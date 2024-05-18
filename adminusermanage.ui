@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminUserManage</class>
+ <widget class="QWidget" name="AdminUserManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>271</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="autoScrollMargin">
+    <number>20</number>
+   </property>
+   <row>
+    <property name="text">
+     <string>用户1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>用户10</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>账号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>上次登陆时间</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="delUser">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>330</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除用户</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modiUser">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改用户</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getBack">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>330</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>安全退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modiUser_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加用户</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

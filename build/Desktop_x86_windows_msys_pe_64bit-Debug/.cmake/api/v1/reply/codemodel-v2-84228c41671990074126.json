@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5551b38738d8c1e89654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SSOsytem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SSOsytem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SSOsytem-Debug-920ebf6ddd251c2a6068.json",
+					"name" : "SSOsytem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SSOsytem_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SSOsytem_autogen-Debug-f6bce7cff7962b0bd400.json",
+					"name" : "SSOsytem_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SSOsytem_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SSOsytem_autogen_timestamp_deps-Debug-accc8e9077a803854ec0.json",
+					"name" : "SSOsytem_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ZhengW/Documents/SSOsytem/build/Desktop_x86_windows_msys_pe_64bit-Debug",
+		"source" : "C:/Users/ZhengW/Documents/SSOsytem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
